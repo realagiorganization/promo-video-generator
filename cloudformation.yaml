@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Basic infrastructure for the promo video generator
+
+Parameters:
+  EnvironmentName:
+    Type: String
+    Default: promo-video
+    Description: Name prefix for created resources
+
+Resources:
+  PromoVideoBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub '${EnvironmentName}-videos'
+      VersioningConfiguration:
+        Status: Enabled
+
+Outputs:
+  VideoBucketName:
+    Value: !Ref PromoVideoBucket
+    Description: Bucket for storing generated promo videos
