@@ -5,6 +5,7 @@ This repository contains a minimal example for generating a promotional video.
 ## Contents
 - `cloudformation.yaml` – defines AWS infrastructure for storing generated videos.
 - `.microagent/.openhands/microagent/promo-video-agent.md` – instructions for requesting credits and creating the promo video using Codex, VEO3, Docker and Playwright.
+- `promo_video_generator.py` – placeholder Python script illustrating how the workflow could be orchestrated.
 
 No keys or personal data are present in this repository.
 
@@ -29,3 +30,12 @@ Replace `myenv` with the desired value for the `EnvironmentName` parameter. The 
 
 ## About the microagent document
 The microagent markdown file describes a conceptual workflow for generating the promo video. It outlines how tools like VEO3, Docker and Playwright could be used together but does not contain executable code.
+
+## Placeholder promo video script
+`promo_video_generator.py` demonstrates the high-level steps without invoking external services:
+
+```bash
+python promo_video_generator.py
+```
+
+The script reads `README.md`, simulates script generation, stub slide rendering, and stub video synthesis. It is intended for illustration only and does not produce an actual video.
