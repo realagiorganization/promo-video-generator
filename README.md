@@ -39,3 +39,13 @@ python promo_video_generator.py
 ```
 
 The script reads `README.md`, simulates script generation, stub slide rendering, and stub video synthesis. It is intended for illustration only and does not produce an actual video.
+
+## Website publishing and evaluation
+A simple static site lives in the `website/` directory. The workflow in
+`.github/workflows/deploy-site.yml` publishes this directory to GitHub
+Pages whenever changes land on the `main` branch.
+
+After deployment the `evaluate-site` workflow runs. It executes
+`evaluate_site.py` to create `devplan.nextsteps.md` with suggested
+improvements, then `generate_codex_prompt.py` converts those steps into a
+text prompt (`codex_prompt.txt`) suitable for Codex.

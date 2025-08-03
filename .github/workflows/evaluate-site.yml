@@ -1,0 +1,32 @@
+name: Evaluate website
+
+on:
+  workflow_run:
+    workflows: ["Publish website"]
+    types:
+      - completed
+  workflow_dispatch:
+
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Evaluate site
+        run: |
+          python evaluate_site.py
+          python generate_codex_prompt.py
+      - name: Upload next steps
+        uses: actions/upload-artifact@v3
+        with:
+          name: next-steps
+          path: devplan.nextsteps.md
+      - name: Upload Codex prompt
+        uses: actions/upload-artifact@v3
+        with:
+          name: codex-prompt
+          path: codex_prompt.txt
