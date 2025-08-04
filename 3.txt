@@ -1,0 +1,60 @@
+
+English: three
+Spanish: tres
+French: trois
+German: drei
+Italian: tre
+Portuguese: três
+Russian: три
+Chinese (Mandarin): 三
+Japanese: 三 (san)
+Korean: 셋 (set)
+Arabic: ثلاثة (thalatha)
+Hindi: तीन (teen)
+Bengali: তিন (tin)
+Urdu: تین (teen)
+Turkish: üç
+Vietnamese: ba
+Polish: trzy
+Dutch: drie
+Greek: τρία (tria)
+Czech: tři
+Swedish: tre
+Finnish: kolme
+Danish: tre
+Norwegian: tre
+Hungarian: három
+Romanian: trei
+Hebrew: שלוש (shalosh)
+Thai: สาม (sǎam)
+Indonesian: tiga
+Malay: tiga
+Filipino: tatlo
+Swahili: tatu
+Zulu: kuthathu
+Afrikaans: drie
+Serbian: три (tri)
+Croatian: tri
+Slovak: tri
+Bulgarian: три (tri)
+Slovenian: tri
+Estonian: kolm
+Latvian: trīs
+Lithuanian: trys
+Georgian: სამი (sami)
+Armenian: երեք (yerek’)
+Azerbaijani: üç
+Persian: سه (seh)
+Pashto: درې (dre)
+Kurdish: sê
+Albanian: tre
+Macedonian: три (tri)
+Bosnian: tri
+Mongolian: гурав (gurav)
+Lao: ສາມ (sām)
+Khmer: បី (bei)
+Burmese: သုံး (thone)
+Nepali: तीन (tin)
+Sinhala: තුන (thuna)
+Tajik: се (se)
+Uzbek: uch
