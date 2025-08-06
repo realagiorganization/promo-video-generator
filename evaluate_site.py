@@ -9,7 +9,11 @@ from pathlib import Path
 
 
 def write_next_steps_md(path: str = "devplan.nextsteps.md") -> None:
-    """Write a stub development plan to the given markdown file."""
+    """
+    Write a stub development plan to the given markdown file.
+    Args:
+        path (str): Path to the markdown file to write.
+    """
     next_steps = [
         "# Next Steps",
         "- [ ] Review site layout with Playwright (stub).",
@@ -20,6 +24,9 @@ def write_next_steps_md(path: str = "devplan.nextsteps.md") -> None:
     print(f"{path} written")
 
 def main() -> None:
+    """
+    Run the stub evaluation and write the next steps markdown file.
+    """
     write_next_steps_md()
 
 
