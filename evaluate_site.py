@@ -8,19 +8,19 @@ OpenHands microagent and Playwright. It writes a development plan
 from pathlib import Path
 
 
-def main() -> None:
-    # In a real implementation, website build artifacts would be
-    # evaluated here. For now we simply create a placeholder file.
+def write_next_steps_md(path: str = "devplan.nextsteps.md") -> None:
+    """Write a stub development plan to the given markdown file."""
     next_steps = [
         "# Next Steps",
         "- [ ] Review site layout with Playwright (stub).",
         "- [ ] Expand README content into full documentation.",
         "- [ ] Automate video generation pipeline.",
     ]
-    # Ensure the markdown file ends with a trailing newline so shell prompts
-    # are not glued to the last line when viewed via `cat`.
-    Path("devplan.nextsteps.md").write_text("\n".join(next_steps) + "\n", encoding="utf-8")
-    print("devplan.nextsteps.md written")
+    Path(path).write_text("\n".join(next_steps) + "\n", encoding="utf-8")
+    print(f"{path} written")
+
+def main() -> None:
+    write_next_steps_md()
 
 
 if __name__ == "__main__":

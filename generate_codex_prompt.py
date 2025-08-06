@@ -3,14 +3,18 @@
 from pathlib import Path
 
 
-def main() -> None:
-    steps_path = Path("devplan.nextsteps.md")
-    if not steps_path.exists():
-        raise SystemExit("devplan.nextsteps.md not found; run evaluate_site.py first")
-    steps = steps_path.read_text(encoding="utf-8")
+def generate_codex_prompt(steps_path: str = "devplan.nextsteps.md", output_path: str = "codex_prompt.txt") -> None:
+    """Convert devplan.nextsteps.md into a Codex-friendly prompt and write to output_path."""
+    steps_file = Path(steps_path)
+    if not steps_file.exists():
+        raise SystemExit(f"{steps_path} not found; run evaluate_site.py first")
+    steps = steps_file.read_text(encoding="utf-8")
     prompt = f"Please implement the following next steps:\n\n{steps}\n"
-    Path("codex_prompt.txt").write_text(prompt, encoding="utf-8")
-    print("codex_prompt.txt written")
+    Path(output_path).write_text(prompt, encoding="utf-8")
+    print(f"{output_path} written")
+
+def main() -> None:
+    generate_codex_prompt()
 
 
 if __name__ == "__main__":

@@ -9,27 +9,23 @@ would be integrated.
 from pathlib import Path
 
 
-def read_readme() -> str:
-    """Return the text of README.md."""
-    return Path("README.md").read_text(encoding="utf-8")
-
+def read_readme(path: str = "README.md") -> str:
+    """Return the text of the given README file."""
+    return Path(path).read_text(encoding="utf-8")
 
 def generate_script(source_text: str) -> str:
     """Simulate expanding README content into a dialogue script."""
-    return "Script derived from README:\n" + source_text[:200] + "..."
-
+    return f"Script derived from README:\n{source_text[:200]}..."
 
 def render_slides(script_text: str) -> str:
     """Placeholder for Docker/Playwright slide rendering."""
     print("[stub] Rendering slides with Docker and Playwright...")
     return "slides"
 
-
 def synthesize_video(script_text: str, slides: str) -> str:
     """Placeholder for VEO3 video synthesis."""
     print("[stub] Synthesizing video with VEO3...")
     return "promo_video.mp4"
-
 
 def main() -> None:
     source = read_readme()
