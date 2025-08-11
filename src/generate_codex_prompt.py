@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Convert devplan.nextsteps.md into a Codex-friendly prompt."""
+"""
+Script to convert devplan.nextsteps.md into a Codex-friendly prompt for further automation.
+"""
+
 import argparse
 import logging
 from utils import read_file, write_file

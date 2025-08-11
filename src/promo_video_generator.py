@@ -42,6 +42,10 @@ def synthesize_video(script: str, slides: str) -> str:
 
 
 def main():
+    """
+    Orchestrate the promo video generation workflow.
+    Reads README, generates a script, renders slides, and synthesizes a video (all stubbed).
+    """
     parser = argparse.ArgumentParser(description="Generate promo video from README.")
     parser.add_argument('--readme', default="README.md", help="Path to README file")
     args = parser.parse_args()
@@ -51,21 +55,6 @@ def main():
     slides = render_slides(script)
     video = synthesize_video(script, slides)
     logging.info(f"Generated video: {video}")
-
-if __name__ == "__main__":
-    main()
-
-
-def main() -> None:
-    """
-    Orchestrate the promo video generation workflow.
-    """
-    readme_text = read_readme()
-    script = generate_script(readme_text)
-    slides = render_slides(script)
-    video_file = synthesize_video(script, slides)
-    print(f"Video generated: {video_file}")
-
 
 if __name__ == "__main__":
     main()
