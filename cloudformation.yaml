@@ -1,4 +1,4 @@
-AWSTemplateFormatVersion: '2010-09-09'
+AWSTemplateFormatVersion: "2010-09-09"
 Description: Basic infrastructure for the promo video generator
 
 Parameters:
@@ -11,7 +11,7 @@ Resources:
   PromoVideoBucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: !Sub '${EnvironmentName}-videos'
+      BucketName: !Sub "${EnvironmentName}-videos"
       VersioningConfiguration:
         Status: Enabled
 
