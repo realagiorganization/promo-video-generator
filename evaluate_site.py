@@ -1,27 +1,31 @@
 #!/usr/bin/env python3
-"""Stub evaluation of published website using microagents.
+"""
+Website Evaluation Stub
+======================
 
-This script pretends to analyse the generated website with an
-OpenHands microagent and Playwright. It writes a development plan
-"devplan.nextsteps.md" suggesting future improvements.
+This module provides a stub for evaluating a published website using microagents and Playwright.
+It simulates analysis of the generated website and writes a development plan (devplan.nextsteps.md)
+suggesting future improvements.
+
+No real analysis is performed; all steps are illustrative only.
 """
 from pathlib import Path
 
 
-def main() -> None:
-    # In a real implementation, website build artifacts would be
-    # evaluated here. For now we simply create a placeholder file.
+def evaluate_website_and_suggest_next_steps() -> None:
+
     next_steps = [
         "# Next Steps",
         "- [ ] Review site layout with Playwright (stub).",
         "- [ ] Expand README content into full documentation.",
         "- [ ] Automate video generation pipeline.",
     ]
-    # Ensure the markdown file ends with a trailing newline so shell prompts
-    # are not glued to the last line when viewed via `cat`.
-    Path("devplan.nextsteps.md").write_text("\n".join(next_steps) + "\n", encoding="utf-8")
+
+    Path("devplan.nextsteps.md").write_text(
+        "\n".join(next_steps) + "\n", encoding="utf-8"
+    )
     print("devplan.nextsteps.md written")
 
 
 if __name__ == "__main__":
-    main()
+    evaluate_website_and_suggest_next_steps()
