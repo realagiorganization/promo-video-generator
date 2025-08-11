@@ -19,7 +19,9 @@ def main() -> None:
     ]
     # Ensure the markdown file ends with a trailing newline so shell prompts
     # are not glued to the last line when viewed via `cat`.
-    Path("devplan.nextsteps.md").write_text("\n".join(next_steps) + "\n", encoding="utf-8")
+    Path("devplan.nextsteps.md").write_text(
+        "\n".join(next_steps) + "\n", encoding="utf-8"
+    )
     print("devplan.nextsteps.md written")
 
 
