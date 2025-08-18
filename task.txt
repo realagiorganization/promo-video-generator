@@ -1,4 +1,4 @@
-Update or add inline comments and documentation
+Revise and improve README and other relevant documentation files
 
 Please analyze the current repository and perform the requested task by making real changes to the code files. 
 
