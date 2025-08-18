@@ -1,4 +1,4 @@
-Rename variables, functions, and classes for clarity and consistency.
+Eliminate duplicate code and apply the DRY (Don't Repeat Yourself) principle.
 
 Please analyze the current repository and perform the requested task by making real changes to the code files. 
 
