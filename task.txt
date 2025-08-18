@@ -1,4 +1,4 @@
-Push changes to a new branch in the repository
+Create a pull request summarizing the changes and improvements
 
 Please analyze the current repository and perform the requested task by making real changes to the code files. 
 
