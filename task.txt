@@ -1,4 +1,4 @@
-Refactor code to improve structure and readability
+Break down large functions or files into smaller, modular components
 
 Please analyze the current repository and perform the requested task by making real changes to the code files. 
 
