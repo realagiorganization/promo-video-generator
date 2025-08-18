@@ -1,4 +1,4 @@
-Update or add comments and documentation as needed.
+Optimize function and method implementations for efficiency and clarity.
 
 Please analyze the current repository and perform the requested task by making real changes to the code files. 
 
