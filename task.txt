@@ -1,4 +1,4 @@
-Eliminate duplicate code and apply the DRY (Don't Repeat Yourself) principle.
+Update or add comments and documentation as needed.
 
 Please analyze the current repository and perform the requested task by making real changes to the code files. 
 
