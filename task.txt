@@ -1,4 +1,4 @@
-Commit refactored changes to a new branch.
+Create a pull request for the refactored code and request review.
 
 Please analyze the current repository and perform the requested task by making real changes to the code files. 
 
