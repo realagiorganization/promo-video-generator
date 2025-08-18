@@ -1,4 +1,4 @@
-Optimize function and method implementations for efficiency and clarity.
+Remove unused or obsolete code and dependencies.
 
 Please analyze the current repository and perform the requested task by making real changes to the code files. 
 
