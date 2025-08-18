@@ -1,4 +1,4 @@
-Task: Remove duplicate or unused code
+Task: Apply consistent coding style and formatting
 
 Please analyze the current repository and perform the requested task. Make real modifications to files as needed.
 
