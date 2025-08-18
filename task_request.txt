@@ -1,4 +1,4 @@
-Task: Apply consistent coding style and formatting
+Task: Update or add comments and docstrings for clarity
 
 Please analyze the current repository and perform the requested task. Make real modifications to files as needed.
 
