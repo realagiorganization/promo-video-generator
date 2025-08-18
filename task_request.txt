@@ -1,0 +1,12 @@
+Task: Analyze the current codebase to identify areas for improvement
+
+Please analyze the current repository and perform the requested task. Make real modifications to files as needed.
+
+Repository structure:
+$(find . -maxdepth 2 -type f | head -10)
+
+Focus on:
+1. Analyzing the existing code
+2. Making actual improvements based on the task
+3. Creating or modifying files as needed
+4. Ensuring changes are meaningful and not just documentation
