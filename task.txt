@@ -1,4 +1,4 @@
-Refactor code modules to improve readability and maintainability.
+Rename variables, functions, and classes for clarity and consistency.
 
 Please analyze the current repository and perform the requested task by making real changes to the code files. 
 
