@@ -1,4 +1,4 @@
-Break down large functions or files into smaller, modular components
+Update or add inline comments and documentation
 
 Please analyze the current repository and perform the requested task by making real changes to the code files. 
 
