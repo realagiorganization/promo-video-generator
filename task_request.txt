@@ -1,4 +1,4 @@
-Task: Write or update unit tests as needed
+Task: Verify code functionality with the test suite
 
 Please analyze the current repository and perform the requested task. Make real modifications to files as needed.
 
