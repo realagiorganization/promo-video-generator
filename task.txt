@@ -1,4 +1,4 @@
-Analyze the current codebase to identify areas for improvement
+Restructure project folders and files for better organization
 
 Please analyze the current repository and perform the requested task by making real changes to the code files. 
 
