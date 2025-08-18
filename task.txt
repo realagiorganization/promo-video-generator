@@ -1,4 +1,4 @@
-Restructure project folders and files for better organization
+Refactor code to improve structure and readability
 
 Please analyze the current repository and perform the requested task by making real changes to the code files. 
 
