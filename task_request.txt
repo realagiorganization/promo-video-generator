@@ -1,4 +1,4 @@
-Task: Update or add comments and docstrings for clarity
+Task: Write or update unit tests as needed
 
 Please analyze the current repository and perform the requested task. Make real modifications to files as needed.
 
