@@ -1,1 +1,1 @@
-{"messages": [{"role": "user", "content": "Please perform a complete refactoring of this repository: Push refactored code to a new branch"}]}
+{"messages": [{"role": "user", "content": "Please perform a complete refactoring of this repository: Create a pull request with a summary of the refactoring changes"}]}
