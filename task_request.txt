@@ -1,4 +1,4 @@
-Task: Restructure project directories and files for better organization
+Task: Refactor code for improved readability and modularity
 
 Please analyze the current repository and perform the requested task. Make real modifications to files as needed.
 
