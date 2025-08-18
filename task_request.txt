@@ -1,4 +1,4 @@
-Task: Define refactoring goals and best practices to follow
+Task: Restructure project directories and files for better organization
 
 Please analyze the current repository and perform the requested task. Make real modifications to files as needed.
 
