@@ -1,4 +1,4 @@
-Task: Verify code functionality with the test suite
+Task: Update documentation to reflect code and structural changes
 
 Please analyze the current repository and perform the requested task. Make real modifications to files as needed.
 
