@@ -1,0 +1,12 @@
+Audit the current codebase to identify areas needing refactoring.
+
+Please analyze the current repository and perform the requested task by making real changes to the code files. 
+
+Focus on:
+1. Analyzing existing code structure
+2. Making meaningful improvements based on the task
+3. Modifying actual source files (not just creating documentation)
+4. Following best practices
+5. Creating real value through code changes
+
+Important: Make actual code modifications and improvements, not just documentation.

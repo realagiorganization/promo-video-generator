@@ -1,0 +1,13 @@
+[core]
+workspace_base = "/workspace/e5047df1/promo-video-generator"
+max_iterations = 20
+
+[llm]
+model = "${OPENHANDS_LLM_MODEL:-gpt-4}"
+api_key = "${OPENHANDS_LLM_API_KEY:-}"
+
+[agent]
+name = "CodeActAgent"
+
+[sandbox]
+type = "local"

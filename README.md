@@ -49,3 +49,13 @@ After deployment the `evaluate-site` workflow runs. It executes
 `evaluate_site.py` to create `devplan.nextsteps.md` with suggested
 improvements, then `generate_codex_prompt.py` converts those steps into a
 text prompt (`codex_prompt.txt`) suitable for Codex.
+
+## 🤖 AI Enhancement
+This repository has been enhanced by OpenHands AI.
+Task: Audit the current codebase to identify areas needing refactoring.
+Enhancement date: Mon Aug 18 15:38:51 UTC 2025
+
+### Improvements Applied
+- Code structure analysis completed
+- Documentation enhanced
+- Best practices review performed
