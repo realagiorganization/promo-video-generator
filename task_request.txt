@@ -1,4 +1,4 @@
-Task: Analyze the current codebase to identify areas for improvement
+Task: Define refactoring goals and best practices to follow
 
 Please analyze the current repository and perform the requested task. Make real modifications to files as needed.
 
