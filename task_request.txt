@@ -1,4 +1,4 @@
-Task: Refactor code for improved readability and modularity
+Task: Remove duplicate or unused code
 
 Please analyze the current repository and perform the requested task. Make real modifications to files as needed.
 
