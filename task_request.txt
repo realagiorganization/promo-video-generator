@@ -1,4 +1,4 @@
-Task: Commit all changes with clear messages
+Task: Create a pull request summarizing the refactoring work
 
 Please analyze the current repository and perform the requested task. Make real modifications to files as needed.
 
