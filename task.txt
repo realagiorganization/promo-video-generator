@@ -1,4 +1,4 @@
-Remove unused or obsolete code and dependencies.
+Ensure all tests are updated and passing after refactoring.
 
 Please analyze the current repository and perform the requested task by making real changes to the code files. 
 
