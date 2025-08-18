@@ -1,4 +1,4 @@
-Audit the current codebase to identify areas needing refactoring.
+Establish coding standards and best practices to follow during refactoring.
 
 Please analyze the current repository and perform the requested task by making real changes to the code files. 
 
