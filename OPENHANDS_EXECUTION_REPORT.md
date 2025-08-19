@@ -1,7 +1,7 @@
 # OpenHands AI Execution Report
 
 **Task**: 
-TASK: Optimize inefficient algorithms and data structures to improve code performance where applicable.
+TASK: Remove any unused variables, imports, or legacy code to clean up the codebase.
 
 CRITICAL REQUIREMENTS - YOU MUST:
 1. Make ACTUAL changes to source code files (not just documentation)
@@ -20,6 +20,6 @@ SPECIFIC ACTIONS TO TAKE:
 
 DO NOT create separate documentation files unless specifically requested.
 FOCUS ON IMPROVING THE ACTUAL CODEBASE WITH REAL CODE CHANGES.
-**Timestamp**: 2025-08-19 19:24:25
+**Timestamp**: 2025-08-19 19:24:35
 **Files Modified**: 0
 
