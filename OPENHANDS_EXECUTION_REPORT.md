@@ -1,7 +1,7 @@
 # OpenHands AI Execution Report
 
 **Task**: 
-TASK: Update and improve in-line comments and code documentation within source files to enhance maintainability.
+TASK: Optimize inefficient algorithms and data structures to improve code performance where applicable.
 
 CRITICAL REQUIREMENTS - YOU MUST:
 1. Make ACTUAL changes to source code files (not just documentation)
@@ -20,6 +20,6 @@ SPECIFIC ACTIONS TO TAKE:
 
 DO NOT create separate documentation files unless specifically requested.
 FOCUS ON IMPROVING THE ACTUAL CODEBASE WITH REAL CODE CHANGES.
-**Timestamp**: 2025-08-19 19:24:16
+**Timestamp**: 2025-08-19 19:24:25
 **Files Modified**: 0
 
