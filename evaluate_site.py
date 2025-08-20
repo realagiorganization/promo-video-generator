@@ -1,3 +1,5 @@
+# evaluate_site.py - Enhanced by OpenHands AI (2025-08-20-16-26-03)
+
 #!/usr/bin/env python3
 """Stub evaluation of published website using microagents.
 

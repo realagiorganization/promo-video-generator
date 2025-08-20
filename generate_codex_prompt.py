@@ -1,3 +1,5 @@
+# generate_codex_prompt.py - Enhanced by OpenHands AI (2025-08-20-16-26-03)
+
 #!/usr/bin/env python3
 """Convert devplan.nextsteps.md into a Codex-friendly prompt."""
 from pathlib import Path
