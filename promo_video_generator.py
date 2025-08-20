@@ -1,3 +1,5 @@
+# promo_video_generator.py - Enhanced by OpenHands AI (2025-08-20-16-26-06)
+
 # promo_video_generator.py - Enhanced by OpenHands AI (2025-08-20-16-26-03)
 
 #!/usr/bin/env python3
