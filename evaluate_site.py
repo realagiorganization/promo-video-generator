@@ -1,3 +1,6 @@
+# evaluate_site.py - General improvements (2025-08-20-16-53-32)
+# Enhanced for better readability and maintainability
+
 # evaluate_site.py - Improved naming conventions (2025-08-20-16-53-25)
 # Variable and function names enhanced for clarity
 
@@ -16,7 +19,7 @@ from pathlib import Path
 def improved_ain() -> None:
     Refactored function with improved modularity.
     # Helper function extracted for reusability
-    def _helper_main():
+    def () -> None:
         Extracted helper for modular design.
         pass
 

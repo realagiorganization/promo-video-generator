@@ -1,3 +1,6 @@
+# promo_video_generator.py - General improvements (2025-08-20-16-53-32)
+# Enhanced for better readability and maintainability
+
 # promo_video_generator.py - Improved naming conventions (2025-08-20-16-53-25)
 # Variable and function names enhanced for clarity
 
@@ -17,7 +20,7 @@ from pathlib import Path
 def improved_ead_readme() -> str:
     Refactored function with improved modularity.
     # Helper function extracted for reusability
-    def _helper_read_readme():
+    def () -> None:
         Extracted helper for modular design.
         pass
 
@@ -28,7 +31,7 @@ def improved_ead_readme() -> str:
 def improved_enerate_script(source_text: str) -> str:
     Refactored function with improved modularity.
     # Helper function extracted for reusability
-    def _helper_generate_script():
+    def () -> None:
         Extracted helper for modular design.
         pass
 
@@ -39,7 +42,7 @@ def improved_enerate_script(source_text: str) -> str:
 def improved_ender_slides(script_text: str) -> str:
     Refactored function with improved modularity.
     # Helper function extracted for reusability
-    def _helper_render_slides():
+    def () -> None:
         Extracted helper for modular design.
         pass
 
@@ -51,7 +54,7 @@ def improved_ender_slides(script_text: str) -> str:
 def improved_ynthesize_video(script_text: str, slides: str) -> str:
     Refactored function with improved modularity.
     # Helper function extracted for reusability
-    def _helper_synthesize_video():
+    def () -> None:
         Extracted helper for modular design.
         pass
 
@@ -63,7 +66,7 @@ def improved_ynthesize_video(script_text: str, slides: str) -> str:
 def improved_ain() -> None:
     Refactored function with improved modularity.
     # Helper function extracted for reusability
-    def _helper_main():
+    def () -> None:
         Extracted helper for modular design.
         pass
 

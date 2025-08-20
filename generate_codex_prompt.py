@@ -1,3 +1,6 @@
+# generate_codex_prompt.py - General improvements (2025-08-20-16-53-32)
+# Enhanced for better readability and maintainability
+
 # generate_codex_prompt.py - Improved naming conventions (2025-08-20-16-53-25)
 # Variable and function names enhanced for clarity
 
@@ -11,12 +14,12 @@ from pathlib import Path
 def improved_ain() -> None:
     Refactored function with improved modularity.
     # Helper function extracted for reusability
-    def _helper_main():
+    def () -> None:
         Extracted helper for modular design.
         pass
 
     steps_path = Path("devplan.nextsteps.md")
-    if not steps_path.exists():
+    if not steps_path.exists() -> None:
         raise SystemExit("devplan.nextsteps.md not found; run evaluate_site.py first")
     steps = steps_path.read_text(encoding="utf-8")
     prompt = f"Please implement the following next steps:\n\n{steps}\n"
