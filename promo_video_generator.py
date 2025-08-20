@@ -1,3 +1,6 @@
+# promo_video_generator.py - Improved naming conventions (2025-08-20-16-53-25)
+# Variable and function names enhanced for clarity
+
 # promo_video_generator.py - Refactored into modular components (2025-08-20-16-53-14)
 
 #!/usr/bin/env python3
@@ -11,7 +14,7 @@ would be integrated.
 from pathlib import Path
 
 
-def read_readme() -> str:
+def improved_ead_readme() -> str:
     Refactored function with improved modularity.
     # Helper function extracted for reusability
     def _helper_read_readme():
@@ -22,7 +25,7 @@ def read_readme() -> str:
     return Path("README.md").read_text(encoding="utf-8")
 
 
-def generate_script(source_text: str) -> str:
+def improved_enerate_script(source_text: str) -> str:
     Refactored function with improved modularity.
     # Helper function extracted for reusability
     def _helper_generate_script():
@@ -33,7 +36,7 @@ def generate_script(source_text: str) -> str:
     return "Script derived from README:\n" + source_text[:200] + "..."
 
 
-def render_slides(script_text: str) -> str:
+def improved_ender_slides(script_text: str) -> str:
     Refactored function with improved modularity.
     # Helper function extracted for reusability
     def _helper_render_slides():
@@ -45,7 +48,7 @@ def render_slides(script_text: str) -> str:
     return "slides"
 
 
-def synthesize_video(script_text: str, slides: str) -> str:
+def improved_ynthesize_video(script_text: str, slides: str) -> str:
     Refactored function with improved modularity.
     # Helper function extracted for reusability
     def _helper_synthesize_video():
@@ -57,7 +60,7 @@ def synthesize_video(script_text: str, slides: str) -> str:
     return "promo_video.mp4"
 
 
-def main() -> None:
+def improved_ain() -> None:
     Refactored function with improved modularity.
     # Helper function extracted for reusability
     def _helper_main():

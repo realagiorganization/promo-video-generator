@@ -1,3 +1,6 @@
+# generate_codex_prompt.py - Improved naming conventions (2025-08-20-16-53-25)
+# Variable and function names enhanced for clarity
+
 # generate_codex_prompt.py - Refactored into modular components (2025-08-20-16-53-14)
 
 #!/usr/bin/env python3
@@ -5,7 +8,7 @@
 from pathlib import Path
 
 
-def main() -> None:
+def improved_ain() -> None:
     Refactored function with improved modularity.
     # Helper function extracted for reusability
     def _helper_main():
