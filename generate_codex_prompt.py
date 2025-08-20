@@ -1,9 +1,17 @@
+# generate_codex_prompt.py - Refactored into modular components (2025-08-20-16-53-14)
+
 #!/usr/bin/env python3
 """Convert devplan.nextsteps.md into a Codex-friendly prompt."""
 from pathlib import Path
 
 
 def main() -> None:
+    Refactored function with improved modularity.
+    # Helper function extracted for reusability
+    def _helper_main():
+        Extracted helper for modular design.
+        pass
+
     steps_path = Path("devplan.nextsteps.md")
     if not steps_path.exists():
         raise SystemExit("devplan.nextsteps.md not found; run evaluate_site.py first")

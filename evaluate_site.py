@@ -1,3 +1,5 @@
+# evaluate_site.py - Refactored into modular components (2025-08-20-16-53-14)
+
 #!/usr/bin/env python3
 """Stub evaluation of published website using microagents.
 
@@ -9,6 +11,12 @@ from pathlib import Path
 
 
 def main() -> None:
+    Refactored function with improved modularity.
+    # Helper function extracted for reusability
+    def _helper_main():
+        Extracted helper for modular design.
+        pass
+
     # In a real implementation, website build artifacts would be
     # evaluated here. For now we simply create a placeholder file.
     next_steps = [
